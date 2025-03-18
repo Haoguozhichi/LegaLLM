@@ -1,0 +1,27 @@
+cache_dir: null
+lang: zh
+last_model: GLM-4-9B-1M-Chat
+path_dict:
+  ChatGLM3-6B-Chat: /root/autodl-tmp/chatglm3-6b
+  GLM-4-9B: /root/autodl-tmp/glm-4-9b
+  GLM-4-9B-1M-Chat: /root/autodl-tmp/glm-4-9b-chat-1m
+  GLM-4-9B-Chat: /root/autodl-tmp/glm-4-9b-chat
+  Gemma-2-9B-Instruct: /root/autodl-tmp/Gemma-2-9B-Chat
+  Gemma-7B-Instruct: /root/autodl-tmp/Gemma-2-9B-Chat
+  InternLM2-7B-Chat: /root/autodl-tmp/internlm2_5-7b-chat
+  InternLM2.5-7B-Chat: /root/autodl-tmp/internlm2_5-7b-chat
+  Llama-3-8B-Instruct: /root/autodl-tmp/Meta-Llama3-8B-Instruct
+  Llama-3.1-8B-Instruct: /root/autodl-tmp/llama3.1-8B-chat
+  Qwen-14B-Chat: /root/autodl-tmp/Qwen-14B-Chat
+  Qwen-7B-Chat: /root/autodl-tmp/Qwen-7B-Chat
+  Qwen1.5-1.8B-Chat: /root/autodl-tmp/Qwen1.5-1.8B-Chat
+  Qwen1.5-14B-Chat: /root/autodl-tmp/Qwen1.5-14B-Chat
+  Qwen1.5-32B-Chat: /root/autodl-tmp/Qwen1.5-32B-Chat
+  Qwen1.5-7B-Chat: /root/autodl-tmp/Qwen1.5-7B-Chat
+  Qwen2-0.5B: /root/autodl-tmp/Qwen2-0.5B
+  Qwen2-72B-Instruct: /root/autodl-tmp/Qwen2-72B-Instruct
+  Qwen2-7B-Instruct: /root/autodl-tmp/Qwen2-7B-Chat
+  Qwen2-VL-7B-Instruct: /root/autodl-tmp/internlm2_5-7b-chat
+  Qwen2.5-14B-Instruct: /root/autodl-tmp/Qwen2.5-14B-Instruct
+  Qwen2.5-72B-Instruct: /root/autodl-tmp/Qwen2.5-72B-Instruct
+  Qwen2.5-7B-Instruct: /root/autodl-tmp/Qwen2.5-7B-Instruct

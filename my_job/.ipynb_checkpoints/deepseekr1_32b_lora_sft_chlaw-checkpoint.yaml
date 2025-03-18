@@ -1,0 +1,55 @@
+### model
+model_name_or_path: deepseek-ai/DeepSeek-R1-Distill-Qwen-32B
+
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 4
+lora_target: all
+lora_alpha : 16
+lora_dropout: 0.1
+flash_attn: auto
+quantization_bit: 4 
+quantization_method: bitsandbytes
+double_quantization: True
+#deepspeed: examples/deepspeed/ds_z3_config.json
+
+### dataset
+dataset_dir: my_job/chinese_law
+dataset: chinese_law_1 ,chinese_law_2,chinese_law_3,chinese_law_4,chinese_law_5,chinese_law_6,chinese_law_7,chinese_law_8,chinese_law_9,chinese_law_10
+template: deepseek3
+cutoff_len: 2048
+overwrite_cache: true
+preprocessing_num_workers: 16
+dataloader_num_workers: 4
+
+### output
+output_dir: saves/deepseekr1-32b/qlora/sft
+logging_steps: 10
+save_steps: 250
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: True
+
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 32
+learning_rate: 3.0e-5
+num_train_epochs: 5
+lr_scheduler_type: cosine
+weight_decay: 0.01
+warmup_ratio: 0.1
+fp16: true
+resume_from_checkpoint: null
+optim: adamw_torch
+
+
+### eval
+#val_size: 0.1
+#per_device_eval_batch_size: 1
+#eval_strategy: steps
+#eval_steps: 250
+#save_total_limit: 2

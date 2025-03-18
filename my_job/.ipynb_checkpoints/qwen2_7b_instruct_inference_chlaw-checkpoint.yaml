@@ -1,0 +1,4 @@
+model_name_or_path: /root/autodl-tmp/huggingface_cache/hub/models--Qwen--Qwen2-7B-Instruct/snapshots/f2826a00ceef68f0f2b946d945ecc0477ce4450c
+adapter_name_or_path: saves/qwen2-7b-instruct/lora/sft
+template: qwen
+finetuning_type: lora

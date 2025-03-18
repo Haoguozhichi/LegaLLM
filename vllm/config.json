@@ -1,0 +1,8 @@
+{
+    "model_path": "saves/deepseekr1-32b/qlora/sft",
+    "quantized_path": "saves/awq_quantized_model",
+    "gpu_memory_utilization": 0.9,
+    "max_tokens": 100,
+    "temperature": 0.7,
+    "top_p": 0.9
+}
